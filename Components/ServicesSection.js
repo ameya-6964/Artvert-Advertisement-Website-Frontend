@@ -25,28 +25,33 @@ const ServicesSection = () => {
               <Image src={clock} alt="clock" width={30} height={30} />
               <h3>Efficient</h3>
             </div>
-            <p> Lorem ipsum dolor sit amet. </p>
+            <p> Capture Attention Get Exposure Generate Buzz Quickly </p>
           </Card>
           <Card>
             <div className="icon">
               <Image src={diaphragm} alt="clock" width={30} height={30} />
               <h3>Skilled Artist</h3>
             </div>
-            <p> Lorem ipsum dolor sit amet. </p>
+            <p>Professional Artists To Deliver Complicated Projects</p>
           </Card>
           <Card>
             <div className="icon">
               <Image src={money} alt="clock" width={30} height={30} />
               <h3>Cost Efficient</h3>
             </div>
-            <p> Lorem ipsum dolor sit amet. </p>
+            <p>
+              Monthly Fee&apos;s Which Can Be 1/3 Price of Monthly Billboard
+              Fees
+            </p>
           </Card>
           <Card>
             <div className="icon">
               <Image src={teamwork} alt="clock" width={30} height={30} />
               <h3>Amazing Team</h3>
             </div>
-            <p> Lorem ipsum dolor sit amet. </p>
+            <p>
+              We Experience in Picking Best Locations For Brands Within Township
+            </p>
           </Card>
         </Cards>
       </Description>
