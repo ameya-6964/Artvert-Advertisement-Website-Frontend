@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import mural from "../public/mural.jpg";
 
 const AboutSection = () => {
   return (
@@ -25,12 +26,7 @@ const AboutSection = () => {
         <button> Contact Us </button>
       </div>
       <div className="image">
-        <Image
-          src="/mural.jpg"
-          alt="guy Making Mural"
-          height={500}
-          width={400}
-        />
+        <Image src={mural} alt="guy Making Mural" height={500} width={400} />
       </div>
     </div>
   );
