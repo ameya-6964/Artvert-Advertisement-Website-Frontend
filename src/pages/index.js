@@ -1,3 +1,4 @@
+import GlobalStyle from "Components/GlobalStyle";
 import Head from "next/head";
 import AboutUs from "./AboutUs";
 
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <main>
         <div className="App">
+          <GlobalStyle />
           <AboutUs />
         </div>
       </main>
