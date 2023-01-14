@@ -14,7 +14,7 @@ export const MovieState = () => {
       cinema: vid,
       cinematic: reel,
       secondaryImg: secondBanner,
-      url: "/work/the-athlete",
+      url: "/work/cirkus-project",
       awards: [
         {
           title: "Truly A Masterpiece",

@@ -35,7 +35,7 @@ const OurWork = () => {
       <Movie>
         <motion.h2 variants={fade}>Rohit Shetty&apos;s Cirkus</motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
-        <Link to="/work/the-athlete">
+        <Link to="/work/cirkus-project">
           <Hide>
             <motion.img
               variants={photoAnim}
