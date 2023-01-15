@@ -54,6 +54,7 @@ const Work = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
   padding: 5rem 10rem;
+
   @media (max-width: 1300px) {
     padding: 2rem 2rem;
   }
@@ -74,6 +75,7 @@ const Movie = styled(motion.div)`
     width: 100%;
     height: 70vh;
     object-fit: cover;
+    border-radius: 20px;
   }
   //! Media Queries For Image
 
@@ -93,6 +95,7 @@ const Movie = styled(motion.div)`
       width: 100%;
       height: 50vh;
       object-fit: cover;
+      border-radius: 20px;
     }
   }
   @media all and (max-width: 800px) {
@@ -102,6 +105,7 @@ const Movie = styled(motion.div)`
       width: 100%;
       height: 40vh;
       object-fit: cover;
+      border-radius: 20px;
     }
   }
   @media all and (max-width: 700px) {
@@ -111,6 +115,7 @@ const Movie = styled(motion.div)`
       width: 100%;
       height: 40vh;
       object-fit: cover;
+      border-radius: 20px;
     }
   }
   @media all and (max-width: 600px) {
@@ -120,6 +125,7 @@ const Movie = styled(motion.div)`
       width: 100%;
       height: 40vh;
       object-fit: contain;
+      border-radius: 20px;
     }
   }
   @media all and (max-width: 500px) {
@@ -129,6 +135,7 @@ const Movie = styled(motion.div)`
       width: 100%;
       height: 40vh;
       object-fit: contain;
+      border-radius: 20px;
     }
   }
   @media all and (max-width: 400px) {
@@ -138,6 +145,7 @@ const Movie = styled(motion.div)`
       width: 100%;
       height: 40vh;
       object-fit: contain;
+      border-radius: 20px;
     }
   }
 `;

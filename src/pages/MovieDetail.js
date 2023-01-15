@@ -81,6 +81,7 @@ const HeadLine = styled.div`
     width: 100%;
     height: 70vh;
     object-fit: cover;
+    border-radius: 20px;
   }
 
   //! Media Queries For Image
@@ -321,6 +322,7 @@ const VideoDisplay = styled.div`
     width: 100%;
     height: 100vh;
     object-fit: cover;
+    border-radius: 20px;
   }
   @media all and (max-width: 1000px) {
     min-height: 50vh;
