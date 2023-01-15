@@ -18,9 +18,10 @@ import {
 import ScrollTop from "../components/ScrollTop";
 
 const OurWork = () => {
+  const text = { fontSize: "2rem", textAlign: "center", marginTop: "10px" };
   return (
     <Work
-      style={{ background: "#fff" }}
+      style={{ background: "#1b1b1b" }}
       exit="exit"
       variants={pageAnimation}
       initial="hidden"
@@ -33,7 +34,9 @@ const OurWork = () => {
         <Frame4 variants={slider}></Frame4>
       </motion.div>
       <Movie>
-        <motion.h2 variants={fade}>Rohit Shetty&apos;s Cirkus</motion.h2>
+        <motion.h2 variants={fade}>
+          <span>Rohit Shetty&apos;s</span> Cirkus
+        </motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/cirkus-project">
           <Hide>
@@ -44,6 +47,9 @@ const OurWork = () => {
             />
           </Hide>
         </Link>
+        <motion.h2 variants={fade} style={text}>
+          Click On Photo To Know More
+        </motion.h2>
       </Movie>
       <ScrollTop />
     </Work>
@@ -54,6 +60,9 @@ const Work = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
   padding: 5rem 10rem;
+  span {
+    color: white;
+  }
 
   @media (max-width: 1300px) {
     padding: 2rem 2rem;
@@ -61,6 +70,7 @@ const Work = styled(motion.div)`
 
   h2 {
     padding: 1rem 0rem;
+    color: white;
   }
 `;
 const Movie = styled(motion.div)`
@@ -125,7 +135,6 @@ const Movie = styled(motion.div)`
       width: 100%;
       height: 40vh;
       object-fit: contain;
-      border-radius: 20px;
     }
   }
   @media all and (max-width: 500px) {
@@ -133,9 +142,8 @@ const Movie = styled(motion.div)`
 
     img {
       width: 100%;
-      height: 40vh;
+      height: 30vh;
       object-fit: contain;
-      border-radius: 20px;
     }
   }
   @media all and (max-width: 400px) {
@@ -143,9 +151,8 @@ const Movie = styled(motion.div)`
 
     img {
       width: 100%;
-      height: 40vh;
+      height: 30vh;
       object-fit: contain;
-      border-radius: 20px;
     }
   }
 `;
