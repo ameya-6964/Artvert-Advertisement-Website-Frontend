@@ -52,6 +52,15 @@ const MovieDetail = () => {
               loop
             />
           </VideoDisplay>
+          <VideoDisplay>
+            <iframe
+              src="https://www.youtube.com/embed/wLkTOqwtyBE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </VideoDisplay>
           {/* <ImageDisplay>
             <img src={movie.secondaryImg} alt="movie" />
           </ImageDisplay> */}
@@ -324,6 +333,12 @@ const VideoDisplay = styled.div`
     object-fit: cover;
     border-radius: 20px;
   }
+  iframe {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 20px;
+  }
   @media all and (max-width: 1000px) {
     min-height: 50vh;
     h2 {
@@ -334,6 +349,11 @@ const VideoDisplay = styled.div`
     }
 
     video {
+      width: 100%;
+      height: 50vh;
+      object-fit: cover;
+    }
+    iframe {
       width: 100%;
       height: 50vh;
       object-fit: cover;
@@ -353,6 +373,11 @@ const VideoDisplay = styled.div`
       height: 50vh;
       object-fit: cover;
     }
+    iframe {
+      width: 100%;
+      height: 50vh;
+      object-fit: cover;
+    }
   }
   @media all and (max-width: 800px) {
     min-height: 50vh;
@@ -364,6 +389,11 @@ const VideoDisplay = styled.div`
     }
 
     video {
+      width: 100%;
+      height: 40vh;
+      object-fit: cover;
+    }
+    iframe {
       width: 100%;
       height: 40vh;
       object-fit: cover;
@@ -383,6 +413,11 @@ const VideoDisplay = styled.div`
       height: 30vh;
       object-fit: cover;
     }
+    iframe {
+      width: 100%;
+      height: 30vh;
+      object-fit: cover;
+    }
   }
   @media all and (max-width: 600px) {
     min-height: 50vh;
@@ -394,6 +429,11 @@ const VideoDisplay = styled.div`
     }
 
     video {
+      width: 100%;
+      height: 30vh;
+      object-fit: cover;
+    }
+    iframe {
       width: 100%;
       height: 30vh;
       object-fit: cover;
@@ -413,6 +453,11 @@ const VideoDisplay = styled.div`
       height: 30vh;
       object-fit: cover;
     }
+    iframe {
+      width: 100%;
+      height: 30vh;
+      object-fit: cover;
+    }
   }
   @media all and (max-width: 400px) {
     min-height: 40vh;
@@ -424,6 +469,11 @@ const VideoDisplay = styled.div`
     }
 
     video {
+      width: 100%;
+      height: 30vh;
+      object-fit: cover;
+    }
+    iframe {
       width: 100%;
       height: 30vh;
       object-fit: cover;
@@ -442,6 +492,11 @@ const VideoDisplay = styled.div`
       width: 100%;
       height: 30vh;
       object-fit: contain;
+    }
+    iframe {
+      width: 100%;
+      height: 30vh;
+      object-fit: cover;
     }
   }
 `;
